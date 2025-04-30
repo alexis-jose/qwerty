@@ -1751,7 +1751,7 @@ section#aq-space {
         margin-top: 5%;
     }
 }
-/* Responsive Popup Styles */
+/* Responsive Popup CSS Styles */
 @media screen and (min-width: 1px) and (max-width: 600px) {
     .popup-footer {
         display: flex;
