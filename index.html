@@ -5,19 +5,26 @@
  */
 get_header();
 ?>
+<!-- Include custom header styles -->
+<link rel="stylesheet" href="header-styles.css">
 <div id="dark-mode">
-    <!-- Header Background  -->
+    <!-- Modern Header Background  -->
     <header id="main-header" class="header-container">
         <section id="headbackground">
-            <div id="logo-container" class="header-logo-wrapper">
-                <img id="logo" class="header-logo" src="https://olgoffice.com/wp-content/uploads/2025/04/logo-a.png"
-                    alt="AcoustiQ Logo">
+            <div class="header-content">
+                <div id="logo-container" class="header-logo-wrapper">
+                    <img id="logo" class="header-logo" src="https://olgoffice.com/wp-content/uploads/2025/04/logo-a.png"
+                        alt="AcoustiQ Logo">
+                </div>
+                <div class="header-tagline">
+                    <h1>Smart Acoustic Solutions</h1>
+                    <p>Transforming spaces with innovative acoustic technology</p>
+                </div>
+                <div class="header-cta">
+                    <a href="#product-range" class="btn-explore">Explore Products</a>
+                </div>
             </div>
-            <div class="certification-logos">
-                <img id="10logo" src="https://olgoffice.com/wp-content/uploads/2025/04/10.png" alt="10 Year Warranty">
-                <img id="noiselogo" src="https://olgoffice.com/wp-content/uploads/2025/04/nr.png" alt="Noise Reduction">
-                <img id="amlogo" src="https://olgoffice.com/wp-content/uploads/2025/04/am.png" alt="Australian Made">
-            </div>
+            <!-- Removed header-badges div as requested -->
         </section>
     </header>
     <!-- Showcase Product  -->
