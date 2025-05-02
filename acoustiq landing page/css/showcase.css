@@ -1,0 +1,138 @@
+img#\31 0logo,
+img#noiselogo,
+img#amlogo {
+    height: 55px;
+    width: 55px;
+    margin: 0 5px;
+}
+.certification-logos {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+}
+img#aqsr {
+    border-radius: 30px;
+}
+.showcase-container {
+    position: relative;
+    width: 100%;
+}
+.showcase-content-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.showcase-image-container {
+    position: relative;
+    width: 100%;
+}
+.showcase-main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-dot::before {
+    content: attr(data-product);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 12px;
+    color: #ffffff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    margin-bottom: 8px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.product-dot {
+    position: absolute;
+    background-color: #07B4D0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.product-dot::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(255 255 255 / 55%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    margin-bottom: 2.2px;
+}
+.product-dot:hover {
+    transform: scale(1.5);
+    background-color: #0590a6;
+}
+.product-dot:active {
+    /* Make dots unclickable */
+    pointer-events: none;
+}
+.product-dot:hover::before,
+.product-dot:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+/* Dot positions */
+#dot1 {
+    top: 14%;
+    left: 38%;
+}
+#dot2 {
+    top: 59%;
+    left: 20%;
+}
+#dot3 {
+    top: 44%;
+    left: 31%;
+}
+#dot4 {
+    top: 34%;
+    left: 51%;
+}
+#dot5 {
+    top: 56%;
+    left: 55%;
+}
+#dot6 {
+    top: 20%;
+    left: 81%;
+}
+#dot7 {
+    top: 65%;
+    left: 81%;
+}
+#dot8 {
+    top: 40%;
+    left: 55%;
+    visibility: hidden;
+}
+#dot9 {
+    top: 75%;
+    left: 50%;
+    visibility: hidden;
+}
+.content-title {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,21 @@
+header#main-header {
+    background-image: url(https://olgoffice.com/wp-content/uploads/2025/05/aq-bg-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+section#headbackground {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+div#logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+img#logo {
+    max-width: 450px;
+}

@@ -1,0 +1,1008 @@
+/* Consolidated Responsive Design */
+@media screen and (min-width: 2561px) {
+    .product-dot {
+        width: 12px;
+        height: 12px;
+    }
+    .showcase-container {
+        margin-top: -7%;
+    }
+    .carousel-item {
+        flex: 0 0 500px;
+        height: 400px;
+    }
+    .showcase-content-wrapper {
+        padding: 20px 15px;
+    }
+    section#content-section {
+        padding: 40px 20px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 40px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0;
+    }
+    .content-title {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 50px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        gap: 25px;
+    }
+    .carousel-track {
+        padding: 0 20px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 36px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 16px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 70vh;
+        justify-content: flex-start;
+    }
+    div#logo-container {
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+    img#logo {
+        max-width: 430px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: row;
+    }
+    .spec-icon {
+        width: 70px;
+        height: 70px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 14px;
+        text-align: left;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 32px;
+    }
+    .popup-footer {
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+    .product-dot {
+        width: 11px;
+        height: 11px;
+    }
+    .showcase-container {
+        margin-top: -7%;
+    }
+    .carousel-item {
+        flex: 0 0 450px;
+        height: 400px;
+    }
+    .showcase-content-wrapper {
+        padding: 20px;
+    }
+    section#content-section {
+        padding: 30px 20px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 30px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0;
+    }
+    .content-title {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 50px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        gap: 25px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 30px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 16px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 65vh;
+        justify-content: flex-start;
+    }
+    div#logo-container {
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+    img#logo {
+        max-width: 400px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        padding: 1.5rem 0;
+    }
+    .spec-item {
+        flex-direction: row;
+    }
+    .spec-icon {
+        width: 70px;
+        height: 70px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 14px;
+        text-align: left;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 30px;
+    }
+    .popup-footer {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .product-dot {
+        width: 10px;
+        height: 10px;
+    }
+    .showcase-container {
+        margin-top: -8%;
+    }
+    .content-container {
+        padding: 60px 20px;
+    }
+    .carousel-item {
+        flex: 0 0 400px;
+        height: 400px;
+    }
+    .showcase-content-wrapper {
+        padding: 10px 20px;
+    }
+    section#content-section {
+        padding: 30px 20px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 30px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 20px;
+    }
+    .content-title {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 25px;
+    }
+    .carousel-track {
+        padding: 0 20px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 28px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 16px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 55vh;
+        justify-content: flex-start;
+    }
+    div#logo-container {
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    img#logo {
+        max-width: 350px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.3rem;
+        padding: 1.3rem 0;
+    }
+    .spec-item {
+        flex-direction: row;
+    }
+    .spec-icon {
+        width: 70px;
+        height: 70px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 14px;
+        text-align: left;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 28px;
+    }
+    .popup-footer {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .product-dot {
+        width: 9px;
+        height: 9px;
+    }
+    .showcase-container {
+        margin-top: -10%;
+    }
+    .content-container {
+        padding: 50px 20px;
+    }
+    .carousel-item {
+        flex: 0 0 350px;
+        height: 400px;
+    }
+    .showcase-content-wrapper {
+        padding: 10px 15px;
+    }
+    section#content-section {
+        padding: 20px 15px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 20px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 15px;
+    }
+    .content-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 26px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 15px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 50vh;
+        justify-content: center;
+    }
+    div#logo-container {
+        justify-content: center;
+    }
+    img#logo {
+        max-width: 320px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: column;
+    }
+    .spec-icon {
+        width: 60px;
+        height: 60px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 14px;
+        text-align: center;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 26px;
+    }
+    .popup-footer {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .product-dot {
+        width: 8px;
+        height: 8px;
+    }
+    .showcase-container {
+        margin-top: -10%;
+    }
+    .content-container {
+        padding: 45px 20px;
+    }
+    .carousel-item {
+        flex: 0 0 300px;
+        height: 400px;
+    }
+    .showcase-content-wrapper {
+        padding: 5px 15px;
+    }
+    section#content-section {
+        padding: 20px 15px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 20px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 15px;
+    }
+    .content-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 26px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 15px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 40vh;
+        justify-content: center;
+    }
+    div#logo-container {
+        justify-content: center;
+    }
+    img#logo {
+        max-width: 270px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: column;
+    }
+    .spec-icon {
+        width: 60px;
+        height: 60px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 14px;
+        text-align: center;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 24px;
+    }
+    .popup-footer {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .product-dot {
+        width: 7px;
+        height: 7px;
+    }
+    .showcase-container {
+        margin-top: -12%;
+    }
+    .content-container {
+        padding: 40px 20px;
+    }
+    .carousel-item {
+        flex: 0 0 280px;
+        height: 380px;
+    }
+    .showcase-content-wrapper {
+        padding: 5px 15px;
+    }
+    section#content-section {
+        padding: 20px 15px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 20px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 15px;
+    }
+    .content-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .content-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 24px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 14px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 35vh;
+        justify-content: center;
+    }
+    div#logo-container {
+        justify-content: center;
+    }
+    img#logo {
+        max-width: 250px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: column;
+    }
+    .spec-icon {
+        width: 60px;
+        height: 60px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 13px;
+        text-align: center;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 270px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 24px;
+    }
+    .popup-footer {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .product-dot {
+        width: 6px;
+        height: 6px;
+    }
+    .showcase-container {
+        margin-top: -15%;
+    }
+    .carousel-item {
+        flex: 0 0 260px;
+        height: 360px;
+    }
+    .showcase-content-wrapper {
+        padding: 5px 15px;
+    }
+    section#content-section {
+        padding: 20px 15px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 20px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 15px;
+    }
+    .content-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .content-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 24px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 14px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 30vh;
+        justify-content: center;
+    }
+    div#logo-container {
+        justify-content: center;
+    }
+    img#logo {
+        max-width: 230px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: column;
+    }
+    .spec-icon {
+        width: 60px;
+        height: 60px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 13px;
+        text-align: center;
+        text-wrap-style: balance;
+    }
+    /* Contact Section */
+    div#contact-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 22px;
+    }
+    .popup-footer {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 1px) and (max-width: 320px) {
+    .product-dot {
+        width: 6px;
+        height: 6px;
+    }
+    .showcase-container {
+        margin-top: -15%;
+    }
+    .carousel-item {
+        flex: 0 0 240px;
+        height: 340px;
+    }
+    .showcase-content-wrapper {
+        padding: 5px 15px;
+    }
+    section#content-section {
+        padding: 20px 15px;
+    }
+    .carousel-container,
+    .color-container {
+        padding: 20px 0;
+    }
+    div#header-title-range,
+    div#header-title-range2 {
+        padding: 0 15px;
+    }
+    .content-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .content-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .color-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .carousel-track {
+        padding: 0 15px;
+    }
+    .carousel-item .carousel-item-content .pc-content-title {
+        font-size: 24px;
+    }
+    .carousel-item .carousel-item-content .pc-content-text {
+        font-size: 14px;
+    }
+    /* Header Section */
+    section#headbackground {
+        height: 30vh;
+        justify-content: center;
+    }
+    div#logo-container {
+        justify-content: center;
+    }
+    img#logo {
+        max-width: 230px;
+    }
+    .specs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .spec-item {
+        flex-direction: column;
+    }
+    .spec-icon {
+        width: 60px;
+        height: 60px;
+    }
+    p.content-text.titlets,
+    p.content-text.contentts {
+        font-size: 13px;
+        text-align: center;
+        text-wrap-style: balance;
+    }
+    /* Contact Sectionss */
+    div#contact-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    div#contact-cta-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+    a#cons-button-cta {
+        padding: 14px 40px;
+    }
+    img#contact-logo {
+        width: 230px;
+        padding-bottom: 30px;
+    }
+    p.contact-text {
+        font-size: 14px;
+    }
+    .carousel-item .item-label {
+        font-size: 22px;
+    }
+    .popup-footer {
+        margin-top: 5%;
+    }
+}
+/* Responsive Popup CSS Styless */
+@media screen and (min-width: 1px) and (max-width: 600px) {
+    .popup-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-container {
+        padding-bottom: 20px;
+    }
+    .popup-footer .contact-btn {
+        display: none;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 8000px) {
+    .popup-footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* Responsive Popup - Showcase render - logos CSS Styless */
+@media screen and (min-width: 1px) and (max-width: 1023px) {
+    .popup-layout {
+        flex-direction: column !important;
+        height: 95vh !important;
+    }
+    .popup-info {
+        padding: 30px;
+    }
+    .popup-header h2 {
+        font-size: 36px !important;
+    }
+    .popup-body p {
+        font-size: 14px !important;
+    }
+    a#spec-sheet-link,
+    a#brochure-link {
+        font-size: 13px;
+        text-wrap-style: balance;
+    }
+    img#\31 0logo,
+    img#noiselogo,
+    img#amlogo {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 8000px) {
+    .popup-layout {
+        flex-direction: row !important;
+        height: 80vh !important;
+    }
+    .popup-info {
+        padding: 40px;
+    }
+    .popup-header h2 {
+        font-size: 30px !important;
+    }
+    .popup-body p {
+        font-size: 16px !important;
+    }
+    a#spec-sheet-link,
+    a#brochure-link {
+        font-size: 15px;
+        text-wrap-style: balance;
+    }
+    img#\31 0logo,
+    img#noiselogo,
+    img#amlogo {
+        visibility: visible;
+    }
+}

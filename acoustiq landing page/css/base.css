@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#white-theme-mode {
+    background-color: #ffffff;
+}
+.content-wrapper {
+    max-width: 1410px;
+    margin: 0 auto;
+    color: #333F48;
+}
+.content-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333F48;
+    max-width: 1300px;
+}
+p.content-text.titlets {
+    margin-bottom: 0 !important;
+    font-weight: 600;
+    color: #07b4d0;
+}
+p.content-text.contentts {
+    margin-bottom: 0 !important;
+}
+section#aq-space {
+    padding-top: 60px;
+}

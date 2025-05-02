@@ -1,0 +1,56 @@
+/* Contact & Support style */
+p.content-text.title-contact {
+    max-width: 600px;
+    color: #07b4d0;
+}
+p.content-text.des-contact {
+    max-width: 600px;
+}
+div#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div#contact-cta-logos {
+    display: flex;
+}
+p.c-text.content-text.des-contact {
+    margin-bottom: 0 !important;
+}
+a#cons-button-cta {
+    background: #07b4d0;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.3);
+}
+a#cons-button-cta::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 6px solid #00000000;
+    border-bottom: 6px solid #00000000;
+    border-left: 8px solid #94193b;
+    transition: transform 0.3s ease;
+}
+a#cons-button-cta:hover {
+    background: #94193b;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+a#cons-button-cta:hover::after {
+    transform: translateX(3px);
+    border-left: 8px solid #ffffff;
+}
+img#contact-logo {
+    padding-bottom: 30px;
+}
+p.contact-text {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #07b4d0;
+}

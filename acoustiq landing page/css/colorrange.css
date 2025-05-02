@@ -1,0 +1,90 @@
+/* Color Range Section */
+.color-section {
+    display: flex;
+    border-radius: 30px;
+    background-color: #F0F2F0;
+    margin-top: 30px;
+}
+.color-grid {
+    display: grid;
+}
+.color-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.color-preview {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-preview img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.color-options {
+    flex: 0 0 58%;
+}
+.color-btn img {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px solid #5B5B5B;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.color-btn.active img {
+    border-color: #08aec9;
+}
+.color-btn.active::after {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #08aec9;
+}
+.color-options h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.color-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 50px;
+}
+.color-btn::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 50%;
+    bottom: -42px;
+    transform: translateX(-50%);
+    white-space: normal;
+    text-align: center;
+    width: 50px;
+    min-height: 24px;
+    font-size: 10px;
+    color: #333F48;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.color-btn:hover {
+    transform: scale(1.1);
+}
+.color-btn.active::after {
+    content: attr(data-label);
+    opacity: 1;
+    font-weight: 700;
+    background-color: transparent;
+}
