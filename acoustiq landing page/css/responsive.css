@@ -73,6 +73,7 @@
     }
     .spec-item {
         flex-direction: row;
+        padding: 1.5rem 1.5rem 1.5rem 0;
     }
     .spec-icon {
         width: 70px;
@@ -187,6 +188,7 @@
     }
     .spec-item {
         flex-direction: row;
+        padding: 1.5rem 1.5rem 1.5rem 0;
     }
     .spec-icon {
         width: 70px;
@@ -304,6 +306,7 @@
     }
     .spec-item {
         flex-direction: row;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 70px;
@@ -441,6 +444,7 @@
     }
     .spec-item {
         flex-direction: column;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 60px;
@@ -557,6 +561,7 @@
     }
     .spec-item {
         flex-direction: column;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 60px;
@@ -672,6 +677,7 @@
     }
     .spec-item {
         flex-direction: column;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 60px;
@@ -784,6 +790,7 @@
     }
     .spec-item {
         flex-direction: column;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 60px;
@@ -896,6 +903,7 @@
     }
     .spec-item {
         flex-direction: column;
+        padding: 1.5rem;
     }
     .spec-icon {
         width: 60px;
