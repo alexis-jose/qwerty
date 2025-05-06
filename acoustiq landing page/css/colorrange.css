@@ -33,7 +33,7 @@
 .color-btn img {
     width: 100%;
     aspect-ratio: 1;
-    border: 2px solid #5B5B5B;
+    border: 2px solid #5b5b5b00;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
@@ -65,13 +65,13 @@
     content: attr(data-label);
     position: absolute;
     left: 50%;
-    bottom: -42px;
+    bottom: -50px;
     transform: translateX(-50%);
     white-space: normal;
     text-align: center;
     width: 50px;
     min-height: 24px;
-    font-size: 10px;
+    font-size: 11px;
     color: #333F48;
     line-height: 1.2;
     transition: all 0.3s ease;
@@ -85,6 +85,6 @@
 .color-btn.active::after {
     content: attr(data-label);
     opacity: 1;
-    font-weight: 700;
+    font-weight: 600;
     background-color: transparent;
 }

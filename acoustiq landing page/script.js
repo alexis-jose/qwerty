@@ -248,16 +248,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/dpg.png'
             },
             'Charcoal Grey': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-cg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/02-AcoustIQ-Swatch-Charcoal-Grey.png'
             },
             'Grey': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-g.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/03-AcoustIQ-Swatch-Grey.png'
             },
             'Pacific Marble': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-pm.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/04-AcoustIQ-Swatch-Pacific-Marble.png'
             },
             'Slate Grey': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-sg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/05-AcoustIQ-Swatch-Slate-Grey.png'
             },
             'Marble Grey': {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-mg.png'
