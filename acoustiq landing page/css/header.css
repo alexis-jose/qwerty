@@ -10,6 +10,7 @@ section#headbackground {
     display: flex;
     margin: auto;
     align-items: center;
+    justify-content: center;
 }
 div#logo-container {
     width: 100%;

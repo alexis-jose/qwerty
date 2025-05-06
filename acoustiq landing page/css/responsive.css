@@ -57,14 +57,13 @@
     /* Header Section */
     section#headbackground {
         height: 70vh;
-        justify-content: flex-start;
     }
     div#logo-container {
         justify-content: flex-start;
         padding-left: 0px;
     }
     img#logo {
-        max-width: 430px;
+        max-width: 450px;
     }
     .specs-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -172,14 +171,13 @@
     /* Header Section */
     section#headbackground {
         height: 65vh;
-        justify-content: flex-start;
     }
     div#logo-container {
         justify-content: flex-start;
         padding-left: 0px;
     }
     img#logo {
-        max-width: 400px;
+        max-width: 450px;
     }
     .specs-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -290,14 +288,13 @@
     /* Header Section */
     section#headbackground {
         height: 55vh;
-        justify-content: flex-start;
     }
     div#logo-container {
         justify-content: flex-start;
         padding-left: 15px;
     }
     img#logo {
-        max-width: 350px;
+        max-width: 400px;
     }
     .specs-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -429,13 +426,12 @@
     /* Header Section */
     section#headbackground {
         height: 50vh;
-        justify-content: center;
     }
     div#logo-container {
         justify-content: center;
     }
     img#logo {
-        max-width: 320px;
+        max-width: 380px;
     }
     .specs-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -546,13 +542,12 @@
     /* Header Section */
     section#headbackground {
         height: 40vh;
-        justify-content: center;
     }
     div#logo-container {
         justify-content: center;
     }
     img#logo {
-        max-width: 270px;
+        max-width: 320px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -662,13 +657,12 @@
     /* Header Section */
     section#headbackground {
         height: 35vh;
-        justify-content: center;
     }
     div#logo-container {
         justify-content: center;
     }
     img#logo {
-        max-width: 250px;
+        max-width: 300px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -775,13 +769,12 @@
     /* Header Section */
     section#headbackground {
         height: 30vh;
-        justify-content: center;
     }
     div#logo-container {
         justify-content: center;
     }
     img#logo {
-        max-width: 230px;
+        max-width: 280px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -888,13 +881,12 @@
     /* Header Section */
     section#headbackground {
         height: 30vh;
-        justify-content: center;
     }
     div#logo-container {
         justify-content: center;
     }
     img#logo {
-        max-width: 230px;
+        max-width: 280px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);
