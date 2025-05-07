@@ -244,8 +244,8 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     const colorManager = {
         colorMap: {
-            'Dark': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/dpg.png'
+            'Black': {
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/01-AcoustIQ-Swatch-Black.png'
             },
             'Charcoal Grey': {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/02-AcoustIQ-Swatch-Charcoal-Grey.png'
@@ -260,121 +260,121 @@ document.addEventListener('DOMContentLoaded', function () {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/05-AcoustIQ-Swatch-Slate-Grey.png'
             },
             'Marble Grey': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-mg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/06-AcoustIQ-Swatch-Marble-Grey.png'
             },
             'White': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-w.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/07-AcoustIQ-Swatch-White.png'
             },
             'Light Merlot': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-lm.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/08-AcoustIQ-Swatch-Light-Merlot.png'
             },
             'Light Beige': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-lb.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/09-AcoustIQ-Swatch-Light-Beige.png'
             },
             'Natural': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-n.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/10-AcoustIQ-Swatch-Natural.png'
             },
             'Dark Beige': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-db-1.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/11-AcoustIQ-Swatch-Dark-Beige.png'
             },
             'Mid Natural': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-mn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/12-AcoustIQ-Swatch-Mid-Natural.png'
             },
             'Dark Natural': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/13-AcoustIQ-Swatch-Dark-Natural.png'
             },
             'Brown': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-br.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/14-AcoustIQ-Swatch-Brown.png'
             },
             'Moss Banana Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-mbg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/15-AcoustIQ-Swatch-Moss-Banana-Green.png'
             },
             'Banana Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-bg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/16-AcoustIQ-Swatch-Banana-Green.png'
             },
             'Golden Yellow': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-gy.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/17-AcoustIQ-Swatch-Golden-Yellow.png'
             },
             'Yellow': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-y.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/18-AcoustIQ-Swatch-Yellow.png'
             },
             'Orange': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-or.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/19-AcoustIQ-Swatch-Orange.png'
             },
             'Red': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-r.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/20-AcoustIQ-Swatch-Red.png'
             },
             'Burnt Orange': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-bo.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/21-AcoustIQ-Swatch-Burnt-Orange.png'
             },
             'Coral Pink': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-cp.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/22-AcoustIQ-Swatch-Coral-Pink.png'
             },
             'Acoustic Pink': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-pi.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/23-AcoustIQ-Swatch-Pink.png'
             },
             'Merlot': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-ml.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/24-AcoustIQ-Swatch-Merlot.png'
             },
             'Dark Red': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dr.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/25-AcoustIQ-Swatch-Dark-Red.png'
             },
             'Maroon': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-mr.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/26-AcoustIQ-Swatch-Maroon.png'
             },
             'Dark Maroon': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dm.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/27-AcoustIQ-Swatch-Dark-Maroon.png'
             },
             'Royal Pink': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-rp.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/28-AcoustIQ-Swatch-Royal-Pink.png'
             },
             'Purple': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-pr.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/29-AcoustIQ-Swatch-Purple.png'
             },
             'Dark Purple': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-drl.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/30-AcoustIQ-Swatch-Dark-Purple.png'
             },
             'Dark Merlot': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dmt.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/31-AcoustIQ-Swatch-Dark-Merlot.png'
             },
             'Dark Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dbe.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/32-AcoustIQ-Swatch-Dark-Blue.png'
             },
             'Indigo Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-ib.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/33-AcoustIQ-Swatch-Indigo-Blue-1.png'
             },
             'Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-ble.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/34-AcoustIQ-Swatch-Blue.png'
             },
             'Cobalt Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-cbe.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/35-AcoustIQ-Swatch-Cobalt-Blue.png'
             },
             'Pacific Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-pbe.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/36-AcoustIQ-Swatch-Pacific-Blue.png'
             },
             'Light Fern': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-lfn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/37-AcoustIQ-Swatch-Light-Fern.png'
             },
             'Sky Blue': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-ske.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/38-AcoustIQ-Swatch-Sky-Blue.png'
             },
             'Fern': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-fer.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/39-AcoustIQ-Swatch-Fern.png'
             },
             'Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-grn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/40-AcoustIQ-Swatch-Green.png'
             },
             'Dark Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dgn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/41-AcoustIQ-Swatch-Dark-Green.png'
             },
             'Peacock Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-pgn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/42-AcoustIQ-Swatch-Peacock-Green.png'
             },
             'Dark Peacock Green': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dpg.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/43-AcoustIQ-Swatch-Dark-Peacock-Green.png'
             },
             'Dark Fern': {
-                mockup: 'https://olgoffice.com/wp-content/uploads/2025/04/aq-dfn.png'
+                mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/44-AcoustIQ-Swatch-Dark-Fern.png'
             }
         },
         updatePreview(colorName) {

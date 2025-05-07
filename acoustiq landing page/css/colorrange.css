@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(1.6);
 }
 .color-preview img {
     max-width: 100%;
@@ -65,11 +66,11 @@
     content: attr(data-label);
     position: absolute;
     left: 50%;
-    bottom: -50px;
+    bottom: -45px;
     transform: translateX(-50%);
     white-space: normal;
     text-align: center;
-    width: 50px;
+    width: 70px;
     min-height: 24px;
     font-size: 11px;
     color: #333F48;
