@@ -504,6 +504,15 @@ document.addEventListener('DOMContentLoaded', function () {
             elements.carouselWrapper.addEventListener('touchend', handleDragEnd);
             elements.carouselWrapper.addEventListener('mouseleave', handleDragEnd);
         }
+        // Add black color active by default
+        const blackColorButton = Array.from(elements.colorButtons).find(btn =>
+            btn.dataset.label === 'Black'
+        );
+        if (blackColorButton) {
+            blackColorButton.classList.add('active');
+            const colorName = blackColorButton.dataset.label;
+            colorManager.updatePreview(colorName);
+        }
         elements.colorButtons.forEach(button => {
             button.addEventListener('click', function () {
                 elements.colorButtons.forEach(btn => btn.classList.remove('active'));
