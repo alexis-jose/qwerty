@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'Coral Pink': {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/22-AcoustIQ-Swatch-Coral-Pink.png'
             },
-            'Acoustic Pink': {
+            'Pink': {
                 mockup: 'https://olgoffice.com/wp-content/uploads/2025/05/23-AcoustIQ-Swatch-Pink.png'
             },
             'Merlot': {
