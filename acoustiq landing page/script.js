@@ -12,12 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
         previewImage: document.getElementById('color-preview-image'),
         waveLayer: document.getElementById('wave-layer')
     };
-    const state = {
-        isDown: false,
-        startX: 0,
-        scrollLeft: 0,
-        waveTime: 0
-    };
     const popupManager = {
         currentSlide: 0,
         touchStartX: 0,
