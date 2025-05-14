@@ -8,7 +8,6 @@ p.content-text.des-contact {
 }
 div#contact-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 div#contact-cta-logos {

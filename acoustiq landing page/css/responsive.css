@@ -774,7 +774,7 @@
         justify-content: center;
     }
     img#logo {
-        max-width: 280px;
+        max-width: 260px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -886,7 +886,7 @@
         justify-content: center;
     }
     img#logo {
-        max-width: 280px;
+        max-width: 260px;
     }
     .specs-grid {
         grid-template-columns: repeat(1, 1fr);

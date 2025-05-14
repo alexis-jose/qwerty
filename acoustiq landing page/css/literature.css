@@ -1,38 +1,67 @@
-/* Product Literature styles */
-.literature-grid {
+.literature-container {
     display: flex;
-    flex-direction: row;
+    background-color: #ebebee;
+    border-radius: 30px;
 }
-.literature-content {
-    text-align: center;
+.brochure-container,
+.spec-container {
+    display: flex;
+    align-items: center;
+}
+a#downloadbro,
+a#downloadspec {
     position: relative;
-    top: -15%;
+    color: #07b4d0;
 }
-a#spec-sheet-link,
-a#brochure-link {
-    color: #333F48;
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    padding-top: 30px;
+a#downloadbro:hover,
+a#downloadspec:hover {
+    color: #94193b;
 }
-a#spec-sheet-link::after,
-a#brochure-link::after {
+a#downloadbro::after,
+a#downloadspec::after {
     content: '';
     position: absolute;
     left: 50%;
     bottom: -2px;
     width: 0;
     height: 1px;
-    background-color: #333f48;
+    background-color: #94193b;
     transition: width 0.3s ease;
     transform: translateX(-50%);
 }
-a#spec-sheet-link:hover::after,
-a#brochure-link:hover::after {
+a#downloadbro:hover::after,
+a#downloadspec:hover::after {
     width: 100%;
 }
-a#spec-sheet-link:hover,
-a#brochure-link:hover {
-    color: #333F48;
+@media screen and (min-width: 1px) and (max-width: 900px) {
+    .literature-container,
+    .brochure-container,
+    .spec-container {
+        flex-direction: column;
+    }
+    .literature-container {
+        padding: 30px;
+    }
+    a#downloadbro,
+    a#downloadspec {
+        font-size: 14px;
+        top: -3px;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 9000px) {
+    .literature-container {
+        flex-direction: row;
+    }
+    .brochure-container,
+    .spec-container {
+        flex-direction: column;
+    }
+    .literature-container {
+        padding: 20px 40px 0 40px;
+    }
+    a#downloadbro,
+    a#downloadspec {
+        font-size: 14px;
+        top: 50px;
+    }
 }
